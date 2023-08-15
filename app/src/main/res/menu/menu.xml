@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/play_item"
+        android:icon="@drawable/controller"
+        android:fontFamily="@font/line1"
+        android:title="Play"
+       />
+
+    <item
+        android:id="@+id/score_item"
+        android:icon="@drawable/score"
+        android:fontFamily="@font/line1"
+        android:title="Score"
+        />
+
+    <item
+        android:id="@+id/fantasy_item"
+        android:icon="@drawable/fantasy"
+        android:fontFamily="@font/line1"
+        android:title="Fantasy"
+
+        />
+
+    <item
+        android:id="@+id/news_item"
+        android:icon="@drawable/news"
+        android:fontFamily="@font/line1"
+        android:title="News"
+        />
+
+    <item
+        android:id="@+id/youtube_item"
+        android:fontFamily="@font/line1"
+        android:icon="@drawable/youtube"
+        android:title="Youtube" />
+
+
+
+</menu>

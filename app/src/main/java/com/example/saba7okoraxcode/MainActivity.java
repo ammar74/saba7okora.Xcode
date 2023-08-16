@@ -1,14 +1,9 @@
 package com.example.saba7okoraxcode;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,15 +12,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-        getSupportActionBar().setCustomView(R.layout.action_bar);
         setContentView(R.layout.activity_main);
 
-
-
-
-        setContentView(R.layout.activity_main);
         bottomNavigationView=findViewById(R.id.bottomNavigationView);
         loadFragment(new PlayFragment());
         bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -44,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
 
         });
-
-
     }
 
     public void loadFragment(Fragment fragment) {

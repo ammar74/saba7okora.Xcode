@@ -4,4 +4,19 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="play">Play</string>
+    <string name="lets_play">Let\'s Play</string>
+    <string name="team1_name">team1 name</string>
+    <string name="team_one">Team One</string>
+    <string name="password_challenge">Password challenge</string>
+    <string name="team_two">Team Two</string>
+    <string name="team2_name">team2 name</string>
+    <string name="player4_name">Player4 name</string>
+    <string name="background">background</string>
+    <string name="player2_name">Player2 name</string>
+    <string name="player1_image">player1 image</string>
+    <string name="player3_image">player3 image</string>
+    <string name="player4_image">player4 image</string>
+    <string name="player2_image">player2 image</string>
+    <string name="player1_name">Player1 name</string>
+    <string name="player3_name">Player3 name</string>
 </resources>
